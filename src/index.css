@@ -348,7 +348,7 @@ nav a:hover {
   grid-template-columns: repeat(3, 1fr);
   background-color: var(--clr-dark);
   font-family: var(--ff-secondary);
-  font-size: 1.5rem;
+  font-size: var(--fs-body);
 }
 
 .project-tile{
@@ -400,6 +400,12 @@ nav a:hover {
 
 .links a{
   color: var(--clr-dark)
+}
+
+@media screen and (min-width: 600px) {
+  .project-container{
+    font-size: var(--fs-h3)
+  }
 }
 
 
