@@ -278,17 +278,27 @@ nav a:hover {
 }
 
 .services {
-  margin-bottom: 4em;
+  margin: 2em auto 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .service {
-  max-width: 500px;
   margin: 0 auto;
+}
+
+.service img{
+  width: 10rem;
+  object-fit: contain;
+  border: 3px gray solid;
+  border-radius: .25rem;
 }
 
 @media (min-width: 800px) {
   .services {
-    display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 2em;
     max-width: 1000px;
     margin-left: auto;
