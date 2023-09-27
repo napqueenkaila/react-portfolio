@@ -1,4 +1,5 @@
 import introImg from "../assets/kaila.png"
+import "./intro.css"
 
 export default function Intro() {
     return (

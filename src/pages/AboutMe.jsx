@@ -1,10 +1,11 @@
 import aboutImg from "../assets/kaila-fish.png"
+import './aboutme.css'
 
 export default function AboutMe() {
     return (
         <section className="about-me" id="about">
             <h2 className="section__title section__title--about">Who I am</h2>
-            <p className="section__subtitle section__subtitle--about"></p>
+            <p className="section__subtitle section__subtitle--about">Frontend React Developer</p>
 
             <div className="about-me__body">
                 <p>After working in the marine industry for 4 years, I decided to try my hand at coding. Starting with
