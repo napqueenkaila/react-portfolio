@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { getProjects } from "../firebase"
+import "./mywork.css"
 
 export default function MyWork() {
     const [error, setError] = useState(null)
@@ -48,8 +49,8 @@ export default function MyWork() {
     }
 
     return (
-        <div className="project-container">
+        <section className="project-container">
             {projectElements}
-        </div>
+        </section>
     )
 }
